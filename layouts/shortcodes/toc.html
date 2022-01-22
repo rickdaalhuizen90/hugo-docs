@@ -1,0 +1,15 @@
+<ul class="toc">
+    {{ .Inner }}
+{{ range (.Site.GetPage "section" "docs").Pages }}
+    <li>
+        <span class="caret">{{ .Title }}</span>
+        <ul class="nested">
+            {{ range .Page.Pages }}
+            <li>
+                <a href={{ .RelPermalink }}>{{ .Title }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </li>
+{{ end }}
+</ul>

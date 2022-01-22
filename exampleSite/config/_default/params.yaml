@@ -1,0 +1,9 @@
+author: ACME
+pwa: false
+analytics: false
+email: 'example@example.com'
+head: []
+footer: [
+  '<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6"></script>',
+  '<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>',
+]

@@ -1,0 +1,15 @@
+title: 'Example'
+theme: hugo-docs
+defaultContentLanguage: en
+canonifyURLs: true
+
+permalinks:
+  /: /:sections/:slug/
+
+outputs:
+  home: ["HTML", "RSS"]
+
+imaging:
+  quality: 95
+
+timeout: 1000000
